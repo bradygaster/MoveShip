@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Space Game";
+}
+
+<style>
+#ship {
+  position: absolute;
+  cursor: pointer;
+}
+</style>
+
+<img src="css/rebels-off.png" alt="space ship" id="ship"/>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.5/signalr.min.js" integrity="sha512-jqqGgPrIDxMezbWBnn8g+VUyWas+yFogGZS+cEfw8o2tLdzvIpRYYZvrloQsguBPcqsdbE7htoABeN/R+aCBzw==" crossorigin="anonymous"></script>
+<script src="/js/site.js"></script>
